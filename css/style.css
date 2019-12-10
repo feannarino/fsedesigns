@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    background: #1C1D2E;
+    color: #ffffff;
+
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+    text-decoration:none;
+    padding: 5px 15px;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+    text-decoration: line-through;
+}
+
+/* selected link */
+a:active {
+  color: white;
+    text-decoration: line-through;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;
+}
+
+h1 {text-align: center;
+}
+
+h2 {
+    background: #535486;
+    text-align: center;
+}
+.logo {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+.smalllogo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    height: 75px;
+}
+
+
+.intro{
+    display: flex;
+    width: 700px;
+    margin: auto;
+}
+.introLeft{
+    width: 40%;
+}
+.introRight{
+    width: 60%;
+}
+
+.introImg {
+    width: 100%;
+    padding: 5%;
+
+}
+
+.SelfPortrait{
+    width: 40%;
+}
+
+.SelfPortraitImg {
+    width: 100%;
+    padding: 5%;
+}
+
+/*gallery */
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    margin: 20px;
+}
+
+.gallery img{
+    width: 25%;
+    height: auto;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+.portfolio img{
+    width: 200px;
+}
+
+
+ul {
+    list-style-type:none;
+}
+
+img{
+    display: inline-block;
+}
+
+p{
+    display: inline-block;
+}
+
+footer{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+
+.icon{
+    height: 20px;
+    width: auto;
+    position: relative;
+    top: 5px;
+}
+
+/* FORM */
+
+.formcontainer { 
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+label {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #0DB9E9;
+  display: inline-block;
+  padding: 10px 0px 5px 0px; 
+}
+
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #535486;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+button:hover{
+    background-color: #6660AA;
+}
+
+textarea {
+font-family: 'Rajdhani', sans-serif;
+  width: 400px;
+  height:100px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=text], select {
+font-family: 'Rajdhani', sans-serif;
+  width: 400px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+    
+    
+    
+/* Responsive layout */
+
+@media screen and (max-width: 700px) {
+  .gallery img{
+    flex: 100%;
+    max-width: 100%;
+
+    }
+    
+    .portfolio img{
+    width: 100%;
+}
+    
+    input[type=text], select, textarea {
+  width: 100%;
+    }
+    
+    .formcontainer { 
+    width:100%;
+    }
+}
