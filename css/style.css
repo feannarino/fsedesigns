@@ -81,7 +81,7 @@ h2 {
 }
 .introRight{
     display: inline-block;
-    width: 60%;
+    width: 60%; 
 }
 
 .introImg {
@@ -162,6 +162,24 @@ footer{
     top: 5px;
 }
 
+.error{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    align-items: center;
+    
+    
+    
+}
+
+.linkedin {display: block;
+    max-width: 280px;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 /* FORM */
 
 .formcontainer { 
@@ -215,8 +233,13 @@ font-family: 'Rajdhani', sans-serif;
   border-radius: 4px;
   box-sizing: border-box;
 }
-    
-    
+
+.saturn {margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;    
+}
+
 /* Responsive layout */
 
 @media only screen and (max-width: 600px) {
